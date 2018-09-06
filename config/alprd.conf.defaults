@@ -2,17 +2,17 @@
 
 ; country determines the training dataset used for recognizing plates.  
 ; Valid values are: us, eu, au, auwide, gb, kr, mx, sg
-country = us
+  country = eu
 ;pattern = ca
 
 ; text name identifier for this location
-;   site_id = your-unique-sitename
+   site_id = smart-access
 
 ; Declare each stream on a separate line
 ; each unique stream should be defined as stream = [url]
 
 ; Example stream config:
-;   stream = http://127.0.0.1/example_video_stream.mjpeg
+    stream = http://192.168.88.242/cgi-bin/api.cgi?cmd=snap&channel1_800×600&user=admin&password=
 ;   stream = http://127.0.0.1/example_second_stream.mjpeg
 ;   stream = webcam
 
