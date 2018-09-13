@@ -12,7 +12,7 @@
 ; each unique stream should be defined as stream = [url]
 
 ; Example stream config:
-    stream = http://192.168.88.242/cgi-bin/api.cgi?cmd=snap&channel1_800×600&user=admin&password=
+    http://192.168.1.102:8000/++video?cameraNum=0&width=1217&height=680&10202
 ;   stream = http://127.0.0.1/example_second_stream.mjpeg
 ;   stream = webcam
 
@@ -27,6 +27,6 @@ store_plates = 0
 store_plates_location = /var/lib/openalpr/plateimages/
 
 ; upload address is the destination to POST to
-upload_data = 0
-upload_address = http://localhost:9000/push/
+upload_data = 1
+upload_address = http://192.168.1.26:3001/api/tempPlate
 
