@@ -12,7 +12,7 @@
 ; each unique stream should be defined as stream = [url]
 
 ; Example stream config:
-    http://192.168.1.102:8000/++video?cameraNum=0&width=1217&height=680&10202
+    stream = http://192.168.1.102:8000/++video?cameraNum=0&width=1217&height=680&10202
 ;   stream = http://127.0.0.1/example_second_stream.mjpeg
 ;   stream = webcam
 
